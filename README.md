@@ -20,8 +20,8 @@ https://github.com/Rabie45/Control-pc-with-server/assets/76526170/521204ee-34c5-
 
 ## To use the project:
  - Clone the repo ``` git clone https://github.com/Rabie45/Control-pc-with-server.git ```
- - ``` cd Control-pc-with-server.git ```
- - split the terminal ``` ./cl ``
+ - ``` cd Control-pc-with-server ```
+ - split the terminal ``` ./cl ```
  - the second termnial ``` ./ser ```
  - write ur command u can add or modify the code as u want
 
