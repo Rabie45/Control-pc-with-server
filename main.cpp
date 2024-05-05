@@ -45,18 +45,16 @@ int main() {
         if (srv.socketRecv()) {
 
           buffer = srv.buffer.data();
-          std::cout << buffer << std::endl;
-          
+          std::cout << buffer << std::endl;    
           // std::this_thread::sleep_for(std::chrono::seconds(2));
         }
         if (buffer != "empty") {
           if (buffer == "Calculator") {
             buffer = cmd.openCalc();
-            // server.server_send_msg(buffer);
+
             buffer = "empty"; // Reset buffer for next read
           } else if (buffer == "browser") {
             buffer = cmd.openBrowser();
-            // server.server_send_msg(buffer);
             buffer = "empty"; // Reset buffer f
           } else if (buffer == "vscode") {
             buffer = cmd.openVScode();
